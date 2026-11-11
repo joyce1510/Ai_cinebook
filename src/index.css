@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   CINEBOOK ACCESSIBILITY SUITE (WCAG 2.2 AA COMPLIANT)
+   ========================================================================== */
+
+/* 1. Universal Visible Keyboard Focus Indicators */
+:focus-visible {
+  outline: 3px solid #f59e0b !important;
+  outline-offset: 3px !important;
+  border-radius: 4px;
+}
+
+/* 2. Skip to Main Content Link (Hidden until focused) */
+.skip-link {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 100;
+  padding: 0.75rem 1.25rem;
+  background-color: #f59e0b;
+  color: #09090b;
+  font-weight: 800;
+  font-size: 0.875rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+  transform: translateY(-200%);
+  transition: transform 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+  text-decoration: none;
+}
+.skip-link:focus,
+.skip-link:focus-visible {
+  transform: translateY(0);
+  outline: 3px solid #ffffff !important;
+  outline-offset: 2px !important;
+}
+
+/* 3. High Contrast Mode */
+.a11y-high-contrast {
+  --tw-bg-opacity: 1;
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.a11y-high-contrast body {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.a11y-high-contrast .bg-zinc-950,
+.a11y-high-contrast .bg-zinc-900,
+.a11y-high-contrast .bg-zinc-900\/90,
+.a11y-high-contrast .bg-zinc-950\/80,
+.a11y-high-contrast .bg-zinc-950\/90 {
+  background-color: #050505 !important;
+  border-color: #d4d4d8 !important;
+}
+
+.a11y-high-contrast .border-zinc-800,
+.a11y-high-contrast .border-zinc-700,
+.a11y-high-contrast .border-zinc-800\/80 {
+  border-color: #ffffff !important;
+}
+
+.a11y-high-contrast .text-zinc-400,
+.a11y-high-contrast .text-zinc-500 {
+  color: #e4e4e7 !important;
+}
+
+.a11y-high-contrast .text-amber-400,
+.a11y-high-contrast .text-amber-300 {
+  color: #fde047 !important;
+  font-weight: 700;
+}
+
+.a11y-high-contrast :focus-visible {
+  outline: 3px solid #ffffff !important;
+  outline-offset: 3px !important;
+}
+
+/* 4. Text Size Adjustments */
+html.a11y-text-large {
+  font-size: 115% !important;
+}
+
+html.a11y-text-xl {
+  font-size: 125% !important;
+}
+
+/* 5. Reduced Motion Mode */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-delay: -1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    background-attachment: initial !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
+  }
+}
+
+.a11y-reduced-motion *,
+.a11y-reduced-motion *::before,
+.a11y-reduced-motion *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
+
+/* 6. Clear and Readable Typography */
+.a11y-readable-font body,
+.a11y-readable-font h1,
+.a11y-readable-font h2,
+.a11y-readable-font h3,
+.a11y-readable-font button,
+.a11y-readable-font input {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+  letter-spacing: 0.025em !important;
+  line-height: 1.65 !important;
+}
+
+/* 7. Spacious Interface Spacing (Enhanced Touch Targets >= 48px) */
+.a11y-spacing-spacious button,
+.a11y-spacing-spacious a,
+.a11y-spacing-spacious input,
+.a11y-spacing-spacious select {
+  min-height: 48px;
+}
+
+.a11y-spacing-spacious .seat-btn {
+  width: 2.25rem !important;
+  height: 2.25rem !important;
+  margin: 2px !important;
+}
+
+/* 8. Color-Blind Distinctions */
+.a11y-cb-distinction .seat-available {
+  border: 2px solid #38bdf8 !important;
+}
+
+.a11y-cb-distinction .seat-selected {
+  border: 3px double #fde047 !important;
+  outline: 2px solid #ffffff !important;
+}
+
+.a11y-cb-distinction .seat-held {
+  border: 2px dashed #f97316 !important;
+}
+
+.a11y-cb-distinction .seat-booked {
+  border: 1px solid #71717a !important;
+  opacity: 0.5;
+}

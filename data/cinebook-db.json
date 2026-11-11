@@ -1,0 +1,620 @@
+{
+  "confirmedBookings": [
+    {
+      "movie": {
+        "id": "amaran",
+        "title": "Amaran",
+        "displayLanguage": "Tamil",
+        "languages": [
+          "Tamil"
+        ],
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "duration": "2h 47m",
+        "certificate": "U/A",
+        "rating": 9.2
+      },
+      "theatre": {
+        "id": "th-1",
+        "name": "PVR INOX Luxe Multiplex",
+        "location": "Phoenix Marketcity, Velachery",
+        "screen": "Screen 1 — Dolby Atmos 4K Laser"
+      },
+      "date": "JOURNEY_1794393198621",
+      "time": "06:00 PM",
+      "seats": [
+        "D4",
+        "D5"
+      ],
+      "categoryBreakdown": [
+        {
+          "category": "Regular",
+          "count": 2,
+          "price": 160,
+          "subtotal": 320
+        }
+      ],
+      "subtotal": 320,
+      "canteenItems": [
+        {
+          "item": {
+            "id": "combo-cinema-duo",
+            "name": "Cinema Duo Combo",
+            "category": "Combos",
+            "price": 110,
+            "description": "Popcorn + Chilled Drink"
+          },
+          "count": 1
+        }
+      ],
+      "canteenTotal": 110,
+      "appliedOffer": {
+        "code": "CINE20",
+        "title": "Fashion Partner 20% OFF",
+        "type": "coupon",
+        "discountAmount": 64
+      },
+      "convenienceFee": 37,
+      "gst": 7,
+      "totalAmount": 410,
+      "paymentMethod": "UPI (GPay · Demo Sandbox)",
+      "customerName": "Journey Customer",
+      "customerEmail": "customer@journey.test",
+      "id": "CB-AMA-521767",
+      "status": "confirmed",
+      "verificationHash": "0d9d0118e5a9441c",
+      "tokenHash": "cc87774111a03fb1e63bbc41c62445c333bc99381b3690eac3c9f6ce98e67c59",
+      "bookedAt": "2026-11-11T10:33:18.641Z"
+    },
+    {
+      "movie": {
+        "id": "amaran",
+        "title": "Amaran",
+        "displayLanguage": "Tamil",
+        "languages": [
+          "Tamil"
+        ],
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "duration": "2h 47m",
+        "certificate": "U/A",
+        "rating": 9.2
+      },
+      "theatre": {
+        "id": "th-1",
+        "name": "PVR INOX Luxe Multiplex",
+        "location": "Phoenix Marketcity, Velachery",
+        "screen": "Screen 1 — Dolby Atmos 4K Laser"
+      },
+      "date": "QA_1794323856591",
+      "time": "12:00 PM",
+      "seats": [
+        "C3",
+        "C4"
+      ],
+      "categoryBreakdown": [
+        {
+          "category": "Regular",
+          "count": 2,
+          "price": 160,
+          "subtotal": 320
+        }
+      ],
+      "subtotal": 320,
+      "convenienceFee": 32,
+      "gst": 6,
+      "totalAmount": 358,
+      "paymentMethod": "UPI (GPay) · Demo Gateway",
+      "customerName": "QA Automated Agent",
+      "customerEmail": "qa@cinebook.internal",
+      "id": "CB-AMA-574623",
+      "status": "confirmed",
+      "verificationHash": "0047d578d5d91bec",
+      "tokenHash": "5e110acc64f622057e82537d7069e01953b28bc4115eac861e9c67e25418343b",
+      "bookedAt": "2026-11-10T15:17:36.648Z"
+    },
+    {
+      "movie": {
+        "id": "amaran",
+        "title": "Amaran",
+        "displayLanguage": "Tamil",
+        "languages": [
+          "Tamil"
+        ],
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "duration": "2h 47m",
+        "certificate": "U/A",
+        "rating": 9.2
+      },
+      "theatre": {
+        "id": "th-1",
+        "name": "PVR INOX Luxe Multiplex",
+        "location": "Phoenix Marketcity, Velachery",
+        "screen": "Screen 1 — Dolby Atmos 4K Laser"
+      },
+      "date": "JOURNEY_1794323252958",
+      "time": "06:00 PM",
+      "seats": [
+        "D4",
+        "D5"
+      ],
+      "categoryBreakdown": [
+        {
+          "category": "Regular",
+          "count": 2,
+          "price": 160,
+          "subtotal": 320
+        }
+      ],
+      "subtotal": 320,
+      "canteenItems": [
+        {
+          "item": {
+            "id": "combo-cinema-duo",
+            "name": "Cinema Duo Combo",
+            "category": "Combos",
+            "price": 110,
+            "description": "Popcorn + Chilled Drink"
+          },
+          "count": 1
+        }
+      ],
+      "canteenTotal": 110,
+      "appliedOffer": {
+        "code": "CINE20",
+        "title": "Fashion Partner 20% OFF",
+        "type": "coupon",
+        "discountAmount": 64
+      },
+      "convenienceFee": 37,
+      "gst": 7,
+      "totalAmount": 410,
+      "paymentMethod": "UPI (GPay · Demo Sandbox)",
+      "customerName": "Journey Customer",
+      "customerEmail": "customer@journey.test",
+      "id": "CB-AMA-610409",
+      "status": "confirmed",
+      "verificationHash": "09263d69966370ea",
+      "tokenHash": "7745ab10255e138190afb6dea3f109a708494d24ad29901d1717e583453d74b4",
+      "bookedAt": "2026-11-10T15:07:32.982Z"
+    },
+    {
+      "movie": {
+        "id": "amaran",
+        "title": "Amaran",
+        "displayLanguage": "Tamil",
+        "languages": [
+          "Tamil"
+        ],
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "duration": "2h 47m",
+        "certificate": "U/A",
+        "rating": 9.2
+      },
+      "theatre": {
+        "id": "th-1",
+        "name": "PVR INOX Luxe Multiplex",
+        "location": "Phoenix Marketcity, Velachery",
+        "screen": "Screen 1 — Dolby Atmos 4K Laser"
+      },
+      "date": "QA_1794323252508",
+      "time": "12:00 PM",
+      "seats": [
+        "C3",
+        "C4"
+      ],
+      "categoryBreakdown": [
+        {
+          "category": "Regular",
+          "count": 2,
+          "price": 160,
+          "subtotal": 320
+        }
+      ],
+      "subtotal": 320,
+      "convenienceFee": 32,
+      "gst": 6,
+      "totalAmount": 358,
+      "paymentMethod": "UPI (GPay) · Demo Gateway",
+      "customerName": "QA Automated Agent",
+      "customerEmail": "qa@cinebook.internal",
+      "id": "CB-AMA-625392",
+      "status": "confirmed",
+      "verificationHash": "e40fde8dcdd5fe86",
+      "tokenHash": "6052b8e08a338694ad5eba9d4f9d56323ab3f83f6ad61850656c930761132810",
+      "bookedAt": "2026-11-10T15:07:32.548Z"
+    },
+    {
+      "movie": {
+        "id": "amaran",
+        "title": "Amaran",
+        "displayLanguage": "Tamil",
+        "languages": [
+          "Tamil"
+        ],
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "duration": "2h 47m",
+        "certificate": "U/A",
+        "rating": 9.2
+      },
+      "theatre": {
+        "id": "th-1",
+        "name": "PVR INOX Luxe Multiplex",
+        "location": "Phoenix Marketcity, Velachery",
+        "screen": "Screen 1 — Dolby Atmos 4K Laser"
+      },
+      "date": "JOURNEY_1794323247586",
+      "time": "06:00 PM",
+      "seats": [
+        "D4",
+        "D5"
+      ],
+      "categoryBreakdown": [
+        {
+          "category": "Regular",
+          "count": 2,
+          "price": 160,
+          "subtotal": 320
+        }
+      ],
+      "subtotal": 320,
+      "canteenItems": [
+        {
+          "item": {
+            "id": "combo-cinema-duo",
+            "name": "Cinema Duo Combo",
+            "category": "Combos",
+            "price": 110,
+            "description": "Popcorn + Chilled Drink"
+          },
+          "count": 1
+        }
+      ],
+      "canteenTotal": 110,
+      "appliedOffer": {
+        "code": "CINE20",
+        "title": "Fashion Partner 20% OFF",
+        "type": "coupon",
+        "discountAmount": 64
+      },
+      "convenienceFee": 37,
+      "gst": 7,
+      "totalAmount": 410,
+      "paymentMethod": "UPI (GPay · Demo Sandbox)",
+      "customerName": "Journey Customer",
+      "customerEmail": "customer@journey.test",
+      "id": "CB-AMA-125252",
+      "status": "confirmed",
+      "verificationHash": "b28be636a87a3017",
+      "tokenHash": "7c5b068c05af14c583816dc222751d22d987b3a7d954b9f662db514b988fa283",
+      "bookedAt": "2026-11-10T15:07:27.605Z"
+    },
+    {
+      "movie": {
+        "id": "amaran",
+        "title": "Amaran",
+        "displayLanguage": "Tamil",
+        "languages": [
+          "Tamil"
+        ],
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "duration": "2h 47m",
+        "certificate": "U/A",
+        "rating": 9.2
+      },
+      "theatre": {
+        "id": "th-1",
+        "name": "PVR INOX Luxe Multiplex",
+        "location": "Phoenix Marketcity, Velachery",
+        "screen": "Screen 1 — Dolby Atmos 4K Laser"
+      },
+      "date": "JOURNEY_1794323217387",
+      "time": "06:00 PM",
+      "seats": [
+        "D4",
+        "D5"
+      ],
+      "categoryBreakdown": [
+        {
+          "category": "Regular",
+          "count": 2,
+          "price": 160,
+          "subtotal": 320
+        }
+      ],
+      "subtotal": 320,
+      "canteenItems": [
+        {
+          "item": {
+            "id": "combo-cinema-duo",
+            "name": "Cinema Duo Combo",
+            "category": "Combos",
+            "price": 110,
+            "description": "Popcorn + Chilled Drink"
+          },
+          "count": 1
+        }
+      ],
+      "canteenTotal": 110,
+      "appliedOffer": {
+        "code": "CINE20",
+        "title": "Fashion Partner 20% OFF",
+        "type": "coupon",
+        "discountAmount": 64
+      },
+      "convenienceFee": 37,
+      "gst": 7,
+      "totalAmount": 410,
+      "paymentMethod": "UPI (GPay · Demo Sandbox)",
+      "customerName": "Journey Customer",
+      "customerEmail": "customer@journey.test",
+      "id": "CB-AMA-582846",
+      "status": "confirmed",
+      "verificationHash": "2b1f62afd27504fc",
+      "tokenHash": "7b38ac205a6d7a160072dee4148f760ef227c380337189974ff3e7faceb9f1db",
+      "bookedAt": "2026-11-10T15:06:57.409Z"
+    },
+    {
+      "movie": {
+        "id": "amaran",
+        "title": "Amaran",
+        "displayLanguage": "Tamil",
+        "languages": [
+          "Tamil"
+        ],
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "duration": "2h 47m",
+        "certificate": "U/A",
+        "rating": 9.2
+      },
+      "theatre": {
+        "id": "th-1",
+        "name": "PVR INOX Luxe Multiplex",
+        "location": "Phoenix Marketcity, Velachery",
+        "screen": "Screen 1 — Dolby Atmos 4K Laser"
+      },
+      "date": "QA_1794323183339",
+      "time": "12:00 PM",
+      "seats": [
+        "C3",
+        "C4"
+      ],
+      "categoryBreakdown": [
+        {
+          "category": "Regular",
+          "count": 2,
+          "price": 160,
+          "subtotal": 320
+        }
+      ],
+      "subtotal": 320,
+      "convenienceFee": 32,
+      "gst": 6,
+      "totalAmount": 358,
+      "paymentMethod": "UPI (GPay) · Demo Gateway",
+      "customerName": "QA Automated Agent",
+      "customerEmail": "qa@cinebook.internal",
+      "id": "CB-AMA-429046",
+      "status": "confirmed",
+      "verificationHash": "0e285dd7b2b264d8",
+      "tokenHash": "a886ed0f8d3672b9eaeab8b743ab555740c3442f7875219f7d97a475690a7890",
+      "bookedAt": "2026-11-10T15:06:23.385Z"
+    },
+    {
+      "movie": {
+        "id": "amaran",
+        "title": "Amaran",
+        "displayLanguage": "Tamil",
+        "languages": [
+          "Tamil"
+        ],
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "duration": "2h 47m",
+        "certificate": "U/A",
+        "rating": 9.2
+      },
+      "theatre": {
+        "id": "th-1",
+        "name": "PVR INOX Luxe Multiplex",
+        "location": "Phoenix Marketcity, Velachery",
+        "screen": "Screen 1 — Dolby Atmos 4K Laser"
+      },
+      "date": "Tomorrow",
+      "time": "05:30 PM",
+      "seats": [
+        "C3",
+        "C4"
+      ],
+      "categoryBreakdown": [
+        {
+          "category": "Regular",
+          "count": 2,
+          "price": 160,
+          "subtotal": 320
+        }
+      ],
+      "subtotal": 320,
+      "convenienceFee": 32,
+      "gst": 6,
+      "totalAmount": 358,
+      "paymentMethod": "UPI (GPay) · Demo Gateway",
+      "customerName": "QA Automated Agent",
+      "customerEmail": "qa@cinebook.internal",
+      "id": "CB-AMA-757920",
+      "status": "confirmed",
+      "verificationHash": "009a0348aad07357",
+      "tokenHash": "033c30179c98a44fe01032a07291348dec1b542883478e5450ab224a07ee0450",
+      "bookedAt": "2026-11-10T15:04:31.585Z"
+    },
+    {
+      "movie": {
+        "id": "amaran",
+        "title": "Amaran"
+      },
+      "theatre": {
+        "id": "th-1",
+        "name": "PVR INOX Grand Mall",
+        "screen": "Audi 1"
+      },
+      "date": "Tomorrow",
+      "time": "06:30 PM",
+      "seats": [
+        "H1",
+        "H2"
+      ],
+      "categoryBreakdown": [
+        {
+          "category": "Regular",
+          "count": 2,
+          "price": 190,
+          "subtotal": 380
+        }
+      ],
+      "subtotal": 380,
+      "convenienceFee": 38,
+      "gst": 7,
+      "totalAmount": 425,
+      "paymentMethod": "UPI (GPay)",
+      "id": "CB-AMA-708232",
+      "status": "confirmed",
+      "verificationHash": "8b7533391a014cee",
+      "tokenHash": "dc02e634440f22f1821bedf6ce76e7a45027f3ac7d7b27c597aa3362bc4b2f31",
+      "bookedAt": "2026-11-08T10:23:17.460Z"
+    },
+    {
+      "id": "CB-GAT-942180",
+      "movie": {
+        "id": "gatta-kusthi-2",
+        "title": "Gatta Kusthi 2",
+        "displayLanguage": "Tamil",
+        "languages": [
+          "Tamil",
+          "Telugu"
+        ],
+        "genres": [
+          "Sports",
+          "Comedy",
+          "Drama"
+        ],
+        "duration": "2h 28m",
+        "certificate": "U",
+        "rating": 8.9,
+        "votes": "42.8K",
+        "releaseYear": 2026,
+        "synopsis": "Following his eye-opening journey in the first chapter, Veera has proudly embraced life managing household chores and cheering on his superstar wrestler wife, Keerthi. When Keerthi qualifies for the high-stakes World Wrestling Championship in Dubai, the couple faces meddling village traditionalists, comical family turmoil, and ruthless international opponents in an entertaining blend of rural humor and arena action.",
+        "cast": [
+          "Vishnu Vishal",
+          "Aishwarya Lekshmi",
+          "Karunas"
+        ],
+        "director": "Chella Ayyavu",
+        "accentColor": "#f59e0b",
+        "bgGradient": "from-amber-600/30 via-zinc-900 to-zinc-950",
+        "accentBadgeColor": "bg-amber-500/20 text-amber-300 border-amber-500/30",
+        "themeSymbol": "🤼"
+      },
+      "theatre": {
+        "id": "th-1",
+        "name": "PVR INOX Grand Mall",
+        "location": "Velachery, Chennai",
+        "screen": "Audi 1 (4K Laser Dolby Atmos)",
+        "soundSystem": "Dolby Atmos 7.1.4",
+        "shows": [
+          "10:30 AM",
+          "02:00 PM",
+          "06:30 PM",
+          "10:00 PM"
+        ]
+      },
+      "date": "Yesterday",
+      "time": "06:30 PM",
+      "seats": [
+        "F4",
+        "F5"
+      ],
+      "categoryBreakdown": [
+        {
+          "category": "Regular",
+          "count": 2,
+          "price": 190,
+          "subtotal": 380
+        }
+      ],
+      "subtotal": 380,
+      "convenienceFee": 38,
+      "gst": 7,
+      "totalAmount": 425,
+      "bookedAt": "2026-10-19T12:43:54.073Z",
+      "paymentMethod": "UPI (GPay)",
+      "isWatched": true,
+      "status": "confirmed",
+      "verificationHash": "3556f8a3d55f2d31",
+      "tokenHash": "70f274aae0415ea824223aa15f87bb5b1dd90e8a992a5a914ac9f49ca75f495e"
+    }
+  ],
+  "seats": {
+    "gatta-kusthi-2::th-1::Yesterday::06:30 PM": [
+      "F4",
+      "F5"
+    ],
+    "amaran::th-1::Tomorrow::06:30 PM": [
+      "H1",
+      "H2"
+    ],
+    "amaran::th-1::Tomorrow::05:30 PM": [
+      "C3",
+      "C4"
+    ],
+    "amaran::th-1::QA_1794323183339::12:00 PM": [
+      "C3",
+      "C4"
+    ],
+    "amaran::th-1::JOURNEY_1794323217387::06:00 PM": [
+      "D4",
+      "D5"
+    ],
+    "amaran::th-1::JOURNEY_1794323247586::06:00 PM": [
+      "D4",
+      "D5"
+    ],
+    "amaran::th-1::QA_1794323252508::12:00 PM": [
+      "C3",
+      "C4"
+    ],
+    "amaran::th-1::JOURNEY_1794323252958::06:00 PM": [
+      "D4",
+      "D5"
+    ],
+    "amaran::th-1::QA_1794323856591::12:00 PM": [
+      "C3",
+      "C4"
+    ],
+    "amaran::th-1::JOURNEY_1794393198621::06:00 PM": [
+      "D4",
+      "D5"
+    ]
+  },
+  "holds": []
+}
